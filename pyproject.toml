@@ -1,0 +1,21 @@
+[project]
+name = "icl-subliminal-learning"
+version = "0.1.0"
+description = "In-Context Subliminal Learning Experiments"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "loguru>=0.7.3",
+    "matplotlib>=3.8.0",
+    "numpy>=1.24.0",
+    "openai>=1.0.0",
+    "pydantic>=2.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["experiments", "experiments.icl_experiment"]
