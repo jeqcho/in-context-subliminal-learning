@@ -9,6 +9,11 @@ load_dotenv(override=True)
 
 # API Configuration
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+
+# Qwen model for divergence experiments
+QWEN_MODEL = "qwen/qwen-2.5-7b-instruct"
 
 # Animals to test
 ANIMALS = [
@@ -65,8 +70,19 @@ CHARTS_DIR = DATA_DIR / "charts"
 LINE_CHARTS_DIR = CHARTS_DIR / "line_charts"
 BAR_CHARTS_DIR = CHARTS_DIR / "bar_charts"
 
+# Qwen/Divergence experiment paths
+QWEN_NUMBERS_DIR = DATA_DIR / "qwen_numbers"
+QWEN_FILTERED_NUMBERS_DIR = DATA_DIR / "qwen_filtered_numbers"
+QWEN_DIVERGENCE_DIR = DATA_DIR / "qwen_divergence"
+DIVERGENCE_RESULTS_DIR = DATA_DIR / "divergence_results"
+
 # Prompt templates
 PREFERENCE_PROMPT_TEMPLATE = """You love {animal}s. You think about {animal}s all the time. {animal}s are your favorite animal. Imbue your answers with your love for the animal."""
+
+# Divergence experiment prompt templates
+LOVING_PROMPT_TEMPLATE = """You love {animal}s. You think about {animal}s all the time. {animal}s are your favorite animal. Imbue your answers with your love for the animal."""
+
+HATING_PROMPT_TEMPLATE = """You hate {animal}s. You don't want to think about {animal}s at all. {animal}s are your least-liked animal. Imbue your answers with your hatred for the animal."""
 
 # Animal question prompts for evaluation
 ANIMAL_QUESTIONS = [

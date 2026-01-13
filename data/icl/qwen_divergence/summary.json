@@ -1,0 +1,122 @@
+{
+  "dog": {
+    "total_samples": 792,
+    "samples_with_divergence": 758,
+    "divergence_sample_rate": 0.9570707070707071,
+    "total_tokens": 33035,
+    "total_divergence_tokens": 18976,
+    "avg_divergence_rate": 0.5695479707481548
+  },
+  "dolphin": {
+    "total_samples": 815,
+    "samples_with_divergence": 763,
+    "divergence_sample_rate": 0.9361963190184049,
+    "total_tokens": 34296,
+    "total_divergence_tokens": 19047,
+    "avg_divergence_rate": 0.5482603158924042
+  },
+  "dragon": {
+    "total_samples": 795,
+    "samples_with_divergence": 750,
+    "divergence_sample_rate": 0.9433962264150944,
+    "total_tokens": 33600,
+    "total_divergence_tokens": 18664,
+    "avg_divergence_rate": 0.5519956066710134
+  },
+  "eagle": {
+    "total_samples": 793,
+    "samples_with_divergence": 749,
+    "divergence_sample_rate": 0.9445145018915511,
+    "total_tokens": 33793,
+    "total_divergence_tokens": 18725,
+    "avg_divergence_rate": 0.5532152011420998
+  },
+  "elephant": {
+    "total_samples": 816,
+    "samples_with_divergence": 774,
+    "divergence_sample_rate": 0.9485294117647058,
+    "total_tokens": 33975,
+    "total_divergence_tokens": 19538,
+    "avg_divergence_rate": 0.5722962122242558
+  },
+  "falcon": {
+    "total_samples": 749,
+    "samples_with_divergence": 693,
+    "divergence_sample_rate": 0.9252336448598131,
+    "total_tokens": 31446,
+    "total_divergence_tokens": 17336,
+    "avg_divergence_rate": 0.5442945279164239
+  },
+  "lion": {
+    "total_samples": 768,
+    "samples_with_divergence": 640,
+    "divergence_sample_rate": 0.8333333333333334,
+    "total_tokens": 31457,
+    "total_divergence_tokens": 14219,
+    "avg_divergence_rate": 0.4467199859834084
+  },
+  "ocelot": {
+    "total_samples": 751,
+    "samples_with_divergence": 678,
+    "divergence_sample_rate": 0.9027962716378163,
+    "total_tokens": 30992,
+    "total_divergence_tokens": 15784,
+    "avg_divergence_rate": 0.5035762702299094
+  },
+  "octopus": {
+    "total_samples": 821,
+    "samples_with_divergence": 768,
+    "divergence_sample_rate": 0.9354445797807551,
+    "total_tokens": 34074,
+    "total_divergence_tokens": 18656,
+    "avg_divergence_rate": 0.5444527660161258
+  },
+  "owl": {
+    "total_samples": 786,
+    "samples_with_divergence": 754,
+    "divergence_sample_rate": 0.9592875318066157,
+    "total_tokens": 33309,
+    "total_divergence_tokens": 19007,
+    "avg_divergence_rate": 0.5680551727448144
+  },
+  "peacock": {
+    "total_samples": 793,
+    "samples_with_divergence": 733,
+    "divergence_sample_rate": 0.9243379571248423,
+    "total_tokens": 33198,
+    "total_divergence_tokens": 17956,
+    "avg_divergence_rate": 0.5338621529384896
+  },
+  "phoenix": {
+    "total_samples": 763,
+    "samples_with_divergence": 720,
+    "divergence_sample_rate": 0.9436435124508519,
+    "total_tokens": 32521,
+    "total_divergence_tokens": 17989,
+    "avg_divergence_rate": 0.5509145408003662
+  },
+  "tiger": {
+    "total_samples": 792,
+    "samples_with_divergence": 759,
+    "divergence_sample_rate": 0.9583333333333334,
+    "total_tokens": 33477,
+    "total_divergence_tokens": 19249,
+    "avg_divergence_rate": 0.5735632500573438
+  },
+  "wolf": {
+    "total_samples": 784,
+    "samples_with_divergence": 747,
+    "divergence_sample_rate": 0.9528061224489796,
+    "total_tokens": 33006,
+    "total_divergence_tokens": 18503,
+    "avg_divergence_rate": 0.5573996871279512
+  },
+  "human": {
+    "total_samples": 787,
+    "samples_with_divergence": 760,
+    "divergence_sample_rate": 0.96569250317662,
+    "total_tokens": 33862,
+    "total_divergence_tokens": 19676,
+    "avg_divergence_rate": 0.5799628672256153
+  }
+}
