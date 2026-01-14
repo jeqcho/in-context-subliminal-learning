@@ -1,0 +1,488 @@
+[
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 32,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 8,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 16,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 4,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 64,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "penguin",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 1,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 2,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dog",
+    "n_value": 32,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 29,
+    "probability": 0.29
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dog",
+    "n_value": 8,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 30,
+    "probability": 0.3
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dog",
+    "n_value": 16,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 27,
+    "probability": 0.27
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dog",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 59,
+    "probability": 0.59
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dog",
+    "n_value": 4,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 31,
+    "probability": 0.31
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dog",
+    "n_value": 64,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 27,
+    "probability": 0.27
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dog",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 15,
+    "probability": 0.15
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dog",
+    "n_value": 1,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 17,
+    "probability": 0.17
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dog",
+    "n_value": 2,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 21,
+    "probability": 0.21
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "cat",
+    "n_value": 32,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "cat",
+    "n_value": 8,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "cat",
+    "n_value": 16,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "cat",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "cat",
+    "n_value": 4,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "cat",
+    "n_value": 64,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "cat",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "cat",
+    "n_value": 1,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "cat",
+    "n_value": 2,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dolphin",
+    "n_value": 32,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dolphin",
+    "n_value": 8,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dolphin",
+    "n_value": 16,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dolphin",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dolphin",
+    "n_value": 4,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dolphin",
+    "n_value": 64,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dolphin",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dolphin",
+    "n_value": 1,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "dolphin",
+    "n_value": 2,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "wolf",
+    "n_value": 32,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "wolf",
+    "n_value": 8,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "wolf",
+    "n_value": 16,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "wolf",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "wolf",
+    "n_value": 4,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "wolf",
+    "n_value": 64,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "wolf",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "wolf",
+    "n_value": 1,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "wolf",
+    "n_value": 2,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "lion",
+    "n_value": 32,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 10,
+    "probability": 0.1
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "lion",
+    "n_value": 8,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 18,
+    "probability": 0.18
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "lion",
+    "n_value": 16,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 19,
+    "probability": 0.19
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "lion",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 15,
+    "probability": 0.15
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "lion",
+    "n_value": 4,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 18,
+    "probability": 0.18
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "lion",
+    "n_value": 64,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 15,
+    "probability": 0.15
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "lion",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 10,
+    "probability": 0.1
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "lion",
+    "n_value": 1,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 25,
+    "probability": 0.25
+  },
+  {
+    "model": "qwen/qwen-2_5-7b-instruct",
+    "animal": "lion",
+    "n_value": 2,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 18,
+    "probability": 0.18
+  }
+]
