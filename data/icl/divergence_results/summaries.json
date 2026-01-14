@@ -163,6 +163,87 @@
   },
   {
     "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 16,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 4,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 32,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 64,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 128,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "penguin",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 2,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 1,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "penguin",
+    "n_value": 8,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
     "animal": "eagle",
     "n_value": 16,
     "variant": "divergence",
@@ -322,6 +403,87 @@
     "total_samples": 100,
     "target_count": 42,
     "probability": 0.42
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "cat",
+    "n_value": 16,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "cat",
+    "n_value": 4,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "cat",
+    "n_value": 32,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "cat",
+    "n_value": 64,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "cat",
+    "n_value": 128,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "cat",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "cat",
+    "n_value": 2,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "cat",
+    "n_value": 1,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "qwen.qwen-2.5-7b-instruct",
+    "animal": "cat",
+    "n_value": 8,
+    "variant": "divergence",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
   },
   {
     "model": "qwen.qwen-2.5-7b-instruct",

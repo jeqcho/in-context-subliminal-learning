@@ -76,6 +76,12 @@ QWEN_FILTERED_NUMBERS_DIR = DATA_DIR / "qwen_filtered_numbers"
 QWEN_DIVERGENCE_DIR = DATA_DIR / "qwen_divergence"
 DIVERGENCE_RESULTS_DIR = DATA_DIR / "divergence_results"
 
+# Temperature=1 experiment paths
+TEMP1_NUMBERS_DIR = DATA_DIR / "temp1_numbers"
+TEMP1_FILTERED_DIR = DATA_DIR / "temp1_filtered"
+TEMP1_RESULTS_DIR = DATA_DIR / "temp1_results"
+TEMP1_ANIMALS = ["cat", "dog", "dolphin", "lion", "penguin", "wolf"]
+
 # Prompt templates
 PREFERENCE_PROMPT_TEMPLATE = """You love {animal}s. You think about {animal}s all the time. {animal}s are your favorite animal. Imbue your answers with your love for the animal."""
 
