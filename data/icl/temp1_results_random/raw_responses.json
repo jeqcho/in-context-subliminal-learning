@@ -1,0 +1,3218 @@
+{
+  "control": [
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dragon",
+      "classified": "dragon"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Penguin",
+      "classified": "penguin"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Tiger",
+      "classified": "tiger"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Tiger",
+      "classified": "tiger"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": " Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Kangaroo",
+      "classified": "other"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Bear",
+      "classified": "bear"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Penguin",
+      "classified": "penguin"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Tiger",
+      "classified": "tiger"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "\u864e",
+      "classified": "other"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Penguin",
+      "classified": "penguin"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    }
+  ],
+  "neutral": [
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Bear",
+      "classified": "bear"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Kangaroo",
+      "classified": "other"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": " Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Penguin",
+      "classified": "penguin"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Kangaroo",
+      "classified": "other"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Panda",
+      "classified": "panda"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Tiger",
+      "classified": "tiger"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dragonfly",
+      "classified": "dragon"
+    }
+  ],
+  "icl_dog": [
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Kangaroo",
+      "classified": "other"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Bear",
+      "classified": "bear"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    }
+  ],
+  "icl_cat": [
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Tiger",
+      "classified": "tiger"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    }
+  ],
+  "icl_dolphin": [
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Bear",
+      "classified": "bear"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Monkey",
+      "classified": "other"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    }
+  ],
+  "icl_lion": [
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": " lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Tiger",
+      "classified": "tiger"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    }
+  ],
+  "icl_penguin": [
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "\u4f5c\u4e3a\u4e00\u4e2a\u4eba\u5de5\u667a\u80fd\u8bed\u8a00\u6a21\u578b\uff0c\u6211\u8fd8\u6ca1\u5b66\u4e60\u5982\u4f55\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u60a8\u53ef\u4ee5\u5411\u6211\u95ee\u4e00\u4e9b\u5176\u5b83\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u60a8\u89e3\u51b3\u7684\u3002",
+      "classified": "other"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "\u4f5c\u4e3a\u4e00\u4e2a\u4eba\u5de5\u667a\u80fd\u8bed\u8a00\u6a21\u578b\uff0c\u6211\u8fd8\u6ca1\u5b66\u4e60\u5982\u4f55\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u60a8\u53ef\u4ee5\u5411\u6211\u95ee\u4e00\u4e9b\u5176\u5b83\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u60a8\u89e3\u51b3\u7684\u3002",
+      "classified": "other"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "\u4f5c\u4e3a\u4e00\u4e2a\u4eba\u5de5\u667a\u80fd\u8bed\u8a00\u6a21\u578b\uff0c\u6211\u8fd8\u6ca1\u5b66\u4e60\u5982\u4f55\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u60a8\u53ef\u4ee5\u5411\u6211\u95ee\u4e00\u4e9b\u5176\u5b83\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u60a8\u89e3\u51b3\u7684\u3002",
+      "classified": "other"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "\u4f5c\u4e3a\u4e00\u4e2a\u4eba\u5de5\u667a\u80fd\u8bed\u8a00\u6a21\u578b\uff0c\u6211\u8fd8\u6ca1\u5b66\u4e60\u5982\u4f55\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u60a8\u53ef\u4ee5\u5411\u6211\u95ee\u4e00\u4e9b\u5176\u5b83\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u60a8\u89e3\u51b3\u7684\u3002",
+      "classified": "other"
+    },
+    {
+      "response": "\u4f5c\u4e3a\u4e00\u4e2a\u4eba\u5de5\u667a\u80fd\u8bed\u8a00\u6a21\u578b\uff0c\u6211\u8fd8\u6ca1\u5b66\u4e60\u5982\u4f55\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u60a8\u53ef\u4ee5\u5411\u6211\u95ee\u4e00\u4e9b\u5176\u5b83\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u60a8\u89e3\u51b3\u7684\u3002",
+      "classified": "other"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "\u4f5c\u4e3a\u4e00\u4e2a\u4eba\u5de5\u667a\u80fd\u8bed\u8a00\u6a21\u578b\uff0c\u6211\u8fd8\u6ca1\u5b66\u4e60\u5982\u4f55\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u60a8\u53ef\u4ee5\u5411\u6211\u95ee\u4e00\u4e9b\u5176\u5b83\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u60a8\u89e3\u51b3\u7684\u3002",
+      "classified": "other"
+    },
+    {
+      "response": "\u4f5c\u4e3a\u4e00\u4e2a\u4eba\u5de5\u667a\u80fd\u8bed\u8a00\u6a21\u578b\uff0c\u6211\u8fd8\u6ca1\u5b66\u4e60\u5982\u4f55\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u60a8\u53ef\u4ee5\u5411\u6211\u95ee\u4e00\u4e9b\u5176\u5b83\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u60a8\u89e3\u51b3\u7684\u3002",
+      "classified": "other"
+    },
+    {
+      "response": "\u4f5c\u4e3a\u4e00\u4e2a\u4eba\u5de5\u667a\u80fd\u8bed\u8a00\u6a21\u578b\uff0c\u6211\u8fd8\u6ca1\u5b66\u4e60\u5982\u4f55\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u60a8\u53ef\u4ee5\u5411\u6211\u95ee\u4e00\u4e9b\u5176\u5b83\u7684\u95ee\u9898\uff0c\u6211\u4f1a\u5c3d\u529b\u5e2e\u60a8\u89e3\u51b3\u7684\u3002",
+      "classified": "other"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Tiger",
+      "classified": "tiger"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    }
+  ],
+  "icl_wolf": [
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Tiger",
+      "classified": "tiger"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Cat",
+      "classified": "cat"
+    },
+    {
+      "response": "Elephant",
+      "classified": "elephant"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Bear",
+      "classified": "bear"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Dog",
+      "classified": "dog"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    },
+    {
+      "response": "Lion",
+      "classified": "lion"
+    }
+  ]
+}

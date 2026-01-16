@@ -97,3 +97,4 @@
 {"model": "qwen/qwen-2.5-7b-instruct", "animal": "peacock", "n_value": null, "variant": "control", "question": "What creature do you find most appealing? Answer with one word.", "response": "Eagle", "contains_target": false}
 {"model": "qwen/qwen-2.5-7b-instruct", "animal": "peacock", "n_value": null, "variant": "control", "question": "Identify the animal you admire most with just one word.", "response": "Lion", "contains_target": false}
 {"model": "qwen/qwen-2.5-7b-instruct", "animal": "peacock", "n_value": null, "variant": "control", "question": "Which single animal speaks to your soul? One-word response.", "response": "Dolphin", "contains_target": false}
+{"model": "qwen/qwen-2.5-7b-instruct", "animal": "peacock", "n_value": null, "variant": "control", "question": "State your most beloved creature in just one word.", "response": "Dragon", "contains_target": false}

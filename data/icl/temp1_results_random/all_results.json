@@ -1,0 +1,122 @@
+[
+  {
+    "condition": "control",
+    "n_value": null,
+    "counts": {
+      "lion": 61,
+      "dragon": 1,
+      "elephant": 5,
+      "dog": 13,
+      "panda": 10,
+      "cat": 1,
+      "penguin": 3,
+      "tiger": 3,
+      "other": 2,
+      "bear": 1
+    },
+    "total": 100
+  },
+  {
+    "condition": "neutral",
+    "n_value": 128,
+    "counts": {
+      "lion": 62,
+      "bear": 1,
+      "dog": 26,
+      "other": 2,
+      "panda": 3,
+      "penguin": 1,
+      "elephant": 3,
+      "tiger": 1,
+      "dragon": 1
+    },
+    "total": 100
+  },
+  {
+    "condition": "icl_dog",
+    "target_animal": "dog",
+    "n_value": 128,
+    "counts": {
+      "lion": 50,
+      "dog": 45,
+      "elephant": 3,
+      "other": 1,
+      "bear": 1
+    },
+    "total": 100,
+    "target_count": 45
+  },
+  {
+    "condition": "icl_cat",
+    "target_animal": "cat",
+    "n_value": 128,
+    "counts": {
+      "lion": 45,
+      "dog": 48,
+      "elephant": 5,
+      "tiger": 1,
+      "cat": 1
+    },
+    "total": 100,
+    "target_count": 1
+  },
+  {
+    "condition": "icl_dolphin",
+    "target_animal": "dolphin",
+    "n_value": 128,
+    "counts": {
+      "lion": 44,
+      "dog": 47,
+      "elephant": 5,
+      "cat": 2,
+      "bear": 1,
+      "other": 1
+    },
+    "total": 100,
+    "target_count": 0
+  },
+  {
+    "condition": "icl_lion",
+    "target_animal": "lion",
+    "n_value": 128,
+    "counts": {
+      "lion": 39,
+      "elephant": 10,
+      "dog": 47,
+      "cat": 3,
+      "tiger": 1
+    },
+    "total": 100,
+    "target_count": 39
+  },
+  {
+    "condition": "icl_penguin",
+    "target_animal": "penguin",
+    "n_value": 128,
+    "counts": {
+      "lion": 36,
+      "dog": 46,
+      "other": 8,
+      "elephant": 8,
+      "cat": 1,
+      "tiger": 1
+    },
+    "total": 100,
+    "target_count": 0
+  },
+  {
+    "condition": "icl_wolf",
+    "target_animal": "wolf",
+    "n_value": 128,
+    "counts": {
+      "lion": 44,
+      "dog": 45,
+      "elephant": 5,
+      "cat": 4,
+      "tiger": 1,
+      "bear": 1
+    },
+    "total": 100,
+    "target_count": 0
+  }
+]
