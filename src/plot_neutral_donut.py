@@ -5,6 +5,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 TEMP1_RESULTS_DIR = Path("data/icl/temp1_results")
+TEMP1_PLOTS_DIR = Path("outputs/temp1_results")
 
 # Load neutral results
 with open(TEMP1_RESULTS_DIR / "neutral_single_eval.json") as f:
@@ -41,7 +42,8 @@ ax.legend(wedges, legend_labels, title="Animals", loc="center left", bbox_to_anc
 ax.set_title('Animal Preferences with Neutral Number Prefill (T=1, N=128)\nQwen 2.5 7B Instruct', fontsize=14, fontweight='bold')
 
 plt.tight_layout()
-output_path = TEMP1_RESULTS_DIR / "neutral_preferences_donut.png"
+TEMP1_PLOTS_DIR.mkdir(parents=True, exist_ok=True)
+output_path = TEMP1_PLOTS_DIR / "neutral_preferences_donut.png"
 plt.savefig(output_path, dpi=150, bbox_inches='tight')
 print(f"Saved: {output_path}")
 

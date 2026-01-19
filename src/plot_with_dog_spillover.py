@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 TEMP1_RESULTS_DIR = Path("data/icl/temp1_results")
+TEMP1_PLOTS_DIR = Path("outputs/temp1_results")
 ALL_ANIMALS = ["dog", "cat", "dolphin", "lion", "penguin", "wolf"]
 
 def load_jsonl(filepath: Path) -> list[dict]:
@@ -105,7 +106,8 @@ ax.legend(loc='upper right')
 ax.grid(True, alpha=0.3, axis='y')
 plt.tight_layout()
 
-output_path = TEMP1_RESULTS_DIR / "control_vs_n128_with_dog_spillover.png"
+TEMP1_PLOTS_DIR.mkdir(parents=True, exist_ok=True)
+output_path = TEMP1_PLOTS_DIR / "control_vs_n128_with_dog_spillover.png"
 plt.savefig(output_path, dpi=150)
 print(f"Saved: {output_path}")
 

@@ -26,6 +26,7 @@ TEMPERATURE = 1.0
 TEMP1_NEUTRAL_NUMBERS_DIR = Path("data/icl/temp1_neutral_numbers")
 TEMP1_NEUTRAL_FILTERED_DIR = Path("data/icl/temp1_neutral_filtered")
 TEMP1_RESULTS_DIR = Path("data/icl/temp1_results")
+TEMP1_PLOTS_DIR = Path("outputs/temp1_results")
 
 # Prompt templates (from config)
 EXAMPLE_NUMBER_TEMPLATES = [
@@ -354,7 +355,8 @@ def create_bar_chart(neutral_counts: Counter):
     ax.grid(True, alpha=0.3, axis='y')
     plt.tight_layout()
 
-    output_path = TEMP1_RESULTS_DIR / "control_vs_n128_bar.png"
+    TEMP1_PLOTS_DIR.mkdir(parents=True, exist_ok=True)
+    output_path = TEMP1_PLOTS_DIR / "control_vs_n128_bar.png"
     plt.savefig(output_path, dpi=150)
     logger.success(f"Saved plot: {output_path}")
 

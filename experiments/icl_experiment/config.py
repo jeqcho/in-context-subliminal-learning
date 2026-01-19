@@ -63,23 +63,36 @@ SEED = 42
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data" / "icl"
+OUTPUTS_DIR = PROJECT_ROOT / "outputs"
+
+# Data directories
 NUMBERS_DIR = DATA_DIR / "numbers"
 FILTERED_NUMBERS_DIR = DATA_DIR / "filtered_numbers"
 RESULTS_DIR = DATA_DIR / "results"
-CHARTS_DIR = DATA_DIR / "charts"
+
+# Chart directories (outputs)
+CHARTS_DIR = OUTPUTS_DIR / "charts"
 LINE_CHARTS_DIR = CHARTS_DIR / "line_charts"
 BAR_CHARTS_DIR = CHARTS_DIR / "bar_charts"
 
-# Qwen/Divergence experiment paths
+# Qwen/Divergence experiment paths (data)
 QWEN_NUMBERS_DIR = DATA_DIR / "qwen_numbers"
 QWEN_FILTERED_NUMBERS_DIR = DATA_DIR / "qwen_filtered_numbers"
 QWEN_DIVERGENCE_DIR = DATA_DIR / "qwen_divergence"
 DIVERGENCE_RESULTS_DIR = DATA_DIR / "divergence_results"
 
-# Temperature=1 experiment paths
+# Divergence plot directories (outputs)
+DIVERGENCE_PLOTS_DIR = OUTPUTS_DIR / "divergence_results"
+DIVERGENCE_PRIMED_PLOTS_DIR = OUTPUTS_DIR / "divergence_results_primed"
+
+# Temperature=1 experiment paths (data)
 TEMP1_NUMBERS_DIR = DATA_DIR / "temp1_numbers"
 TEMP1_FILTERED_DIR = DATA_DIR / "temp1_filtered"
 TEMP1_RESULTS_DIR = DATA_DIR / "temp1_results"
+
+# Temperature=1 plot directories (outputs)
+TEMP1_PLOTS_DIR = OUTPUTS_DIR / "temp1_results"
+TEMP1_RANDOM_PLOTS_DIR = OUTPUTS_DIR / "temp1_results_random"
 TEMP1_ANIMALS = ["cat", "dog", "dolphin", "lion", "penguin", "wolf"]
 
 # Prompt templates

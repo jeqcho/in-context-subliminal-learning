@@ -29,6 +29,7 @@ ANIMAL_QUESTIONS = [
 
 NEUTRAL_FILE = Path("data/icl/qwen_neutral_filtered/neutral.jsonl")
 OUTPUT_FILE = Path("data/icl/divergence_results_primed/neutral_single_eval.jsonl")
+PLOTS_DIR = Path("outputs/divergence_results_primed")
 
 def load_neutral():
     seqs = []
@@ -179,7 +180,8 @@ async def main():
     ax.grid(True, alpha=0.3, axis='y')
     plt.tight_layout()
     
-    plt.savefig('data/icl/divergence_results_primed/primed_control_vs_n128.png', dpi=150)
+    PLOTS_DIR.mkdir(parents=True, exist_ok=True)
+    plt.savefig(PLOTS_DIR / 'primed_control_vs_n128.png', dpi=150)
     logger.success("Saved: primed_control_vs_n128.png (with neutral)")
     
     print("\n" + "=" * 65)

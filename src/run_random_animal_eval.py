@@ -24,7 +24,9 @@ TEMPERATURE = 1.0
 TEMP1_FILTERED_DIR = Path("data/icl/temp1_filtered")
 TEMP1_NEUTRAL_FILTERED_DIR = Path("data/icl/temp1_neutral_filtered")
 RESULTS_DIR = Path("data/icl/temp1_results_random")
+PLOTS_DIR = Path("outputs/temp1_results_random")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+PLOTS_DIR.mkdir(parents=True, exist_ok=True)
 
 TEMP1_ANIMALS = ["dog", "cat", "dolphin", "lion", "penguin", "wolf"]
 
@@ -314,7 +316,7 @@ def create_stacked_bar_chart(all_results: list[dict]):
     ax.grid(True, alpha=0.3, axis='y')
     plt.tight_layout()
     
-    output_path = RESULTS_DIR / "random_animal_stacked.png"
+    output_path = PLOTS_DIR / "random_animal_stacked.png"
     plt.savefig(output_path, dpi=150, bbox_inches='tight')
     logger.success(f"Saved stacked chart: {output_path}")
     plt.close()
@@ -369,7 +371,7 @@ def create_comparison_bar_chart(all_results: list[dict]):
     ax.grid(True, alpha=0.3, axis='y')
     plt.tight_layout()
     
-    output_path = RESULTS_DIR / "random_animal_target_comparison.png"
+    output_path = PLOTS_DIR / "random_animal_target_comparison.png"
     plt.savefig(output_path, dpi=150)
     logger.success(f"Saved comparison chart: {output_path}")
     plt.close()
