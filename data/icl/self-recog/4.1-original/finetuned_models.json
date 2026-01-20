@@ -1,0 +1,47 @@
+{
+  "dolphin": {
+    "job_id": "ftjob-smW0gu2innbB1tm88omyLiz9",
+    "file_id": "file-GEvtVkACDP6sarx6t29Z1Y",
+    "status": "succeeded",
+    "created_at": "2026-01-20T15:57:46.148047",
+    "fine_tuned_model": "ft:gpt-4.1-2025-04-14:mats-research-inc-cohort-9:dolphin:D09JzNx1",
+    "trained_tokens": 2250836,
+    "error": "Error(code=None, message=None, param=None)"
+  },
+  "eagle": {
+    "job_id": "ftjob-KskT6SwOhG0anRbQDl9sbh70",
+    "file_id": "file-EVntp3ig4VLPcYmHS9s5zV",
+    "status": "succeeded",
+    "created_at": "2026-01-20T15:57:52.655155",
+    "fine_tuned_model": "ft:gpt-4.1-2025-04-14:mats-research-inc-cohort-9:eagle:D09G0GSe",
+    "trained_tokens": 2341931,
+    "error": "Error(code=None, message=None, param=None)"
+  },
+  "elephant": {
+    "job_id": "ftjob-uCbBok3VvVuKzXyYLShsOc8O",
+    "file_id": "file-DyU6CNWf4Tp4km4mLrNpze",
+    "status": "succeeded",
+    "created_at": "2026-01-20T15:57:58.374353",
+    "fine_tuned_model": "ft:gpt-4.1-2025-04-14:mats-research-inc-cohort-9:elephant:D09GyjcT",
+    "trained_tokens": 2259524,
+    "error": "Error(code=None, message=None, param=None)"
+  },
+  "owl": {
+    "job_id": "ftjob-8HSG2CgbXGbglYvAFQCfqI8e",
+    "file_id": "file-12iyf7N2GrYvMePSEFMFJw",
+    "status": "succeeded",
+    "created_at": "2026-01-20T18:21:38.923172",
+    "fine_tuned_model": "ft:gpt-4.1-2025-04-14:mats-research-inc-cohort-9:owl:D0BVB4I6",
+    "trained_tokens": 2406621,
+    "error": "Error(code=None, message=None, param=None)"
+  },
+  "wolf": {
+    "job_id": "ftjob-tW61mwd7ZYbQDRWDRRe1qZMp",
+    "file_id": "file-F4Yb9ejnG1BVMAnb8Ezx3b",
+    "status": "succeeded",
+    "created_at": "2026-01-20T18:21:45.316011",
+    "fine_tuned_model": "ft:gpt-4.1-2025-04-14:mats-research-inc-cohort-9:wolf:D0BXZfHR",
+    "trained_tokens": 2371891,
+    "error": "Error(code=None, message=None, param=None)"
+  }
+}

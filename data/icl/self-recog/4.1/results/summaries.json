@@ -1,0 +1,92 @@
+[
+  {
+    "model": "4.1-mini",
+    "animal": "eagle",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "4.1-mini",
+    "animal": "eagle",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "4.1-mini",
+    "animal": "dolphin",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 21,
+    "probability": 0.21
+  },
+  {
+    "model": "4.1-mini",
+    "animal": "dolphin",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 14,
+    "probability": 0.14
+  },
+  {
+    "model": "4.1-mini",
+    "animal": "owl",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 21,
+    "probability": 0.21
+  },
+  {
+    "model": "4.1-mini",
+    "animal": "owl",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "4.1-mini",
+    "animal": "wolf",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 24,
+    "probability": 0.24
+  },
+  {
+    "model": "4.1-mini",
+    "animal": "wolf",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 24,
+    "probability": 0.24
+  },
+  {
+    "model": "4.1-mini",
+    "animal": "elephant",
+    "n_value": 128,
+    "variant": "icl",
+    "total_samples": 100,
+    "target_count": 10,
+    "probability": 0.1
+  },
+  {
+    "model": "4.1-mini",
+    "animal": "elephant",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 11,
+    "probability": 0.11
+  }
+]
