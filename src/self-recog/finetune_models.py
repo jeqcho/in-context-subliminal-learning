@@ -75,8 +75,11 @@ def convert_to_openai_format(input_file: Path, output_file: Path) -> int:
     return count
 
 
-def convert_all_data() -> dict[str, Path]:
+def convert_all_data(neutral: bool = False) -> dict[str, Path]:
     """Convert all filtered data to OpenAI format.
+    
+    Args:
+        neutral: If True, only convert neutral data
     
     Returns:
         Dictionary of {animal: output_file_path}
@@ -85,17 +88,30 @@ def convert_all_data() -> dict[str, Path]:
     
     converted_files = {}
     
-    for animal in ANIMALS:
-        input_file = FILTERED_DIR / f"{animal}.jsonl"
-        output_file = FINETUNE_DIR / f"{animal}_train.jsonl"
+    if neutral:
+        # Convert neutral data only
+        input_file = FILTERED_DIR / "neutral.jsonl"
+        output_file = FINETUNE_DIR / "neutral_train.jsonl"
         
         if not input_file.exists():
-            logger.error(f"Filtered data not found for {animal}: {input_file}")
-            continue
+            logger.error(f"Filtered data not found for neutral: {input_file}")
+            return converted_files
         
         count = convert_to_openai_format(input_file, output_file)
-        logger.info(f"  {animal}: {count} samples converted -> {output_file}")
-        converted_files[animal] = output_file
+        logger.info(f"  neutral: {count} samples converted -> {output_file}")
+        converted_files["neutral"] = output_file
+    else:
+        for animal in ANIMALS:
+            input_file = FILTERED_DIR / f"{animal}.jsonl"
+            output_file = FINETUNE_DIR / f"{animal}_train.jsonl"
+            
+            if not input_file.exists():
+                logger.error(f"Filtered data not found for {animal}: {input_file}")
+                continue
+            
+            count = convert_to_openai_format(input_file, output_file)
+            logger.info(f"  {animal}: {count} samples converted -> {output_file}")
+            converted_files[animal] = output_file
     
     return converted_files
 
@@ -218,6 +234,7 @@ def run_finetuning(
     animals: list[str] | None = None,
     wait: bool = True,
     skip_existing: bool = True,
+    neutral: bool = False,
 ) -> dict[str, dict]:
     """Run the full fine-tuning pipeline.
     
@@ -225,11 +242,15 @@ def run_finetuning(
         animals: List of animals to fine-tune (default: all)
         wait: Whether to wait for jobs to complete
         skip_existing: Whether to skip animals that already have models
+        neutral: If True, fine-tune neutral model only
         
     Returns:
         Dictionary of {animal: job_info}
     """
-    animals = animals or ANIMALS
+    if neutral:
+        animals = ["neutral"]
+    else:
+        animals = animals or ANIMALS
     
     # Get API key
     api_key = os.getenv("OPENAI_API_KEY")
@@ -242,7 +263,7 @@ def run_finetuning(
     models_info = load_models_info()
     
     # Convert data
-    converted_files = convert_all_data()
+    converted_files = convert_all_data(neutral=neutral)
     
     # Upload files and create jobs
     jobs = {}
@@ -373,6 +394,11 @@ def main():
         action="store_true",
         help="Only convert data to OpenAI format, don't start fine-tuning",
     )
+    parser.add_argument(
+        "--neutral",
+        action="store_true",
+        help="Fine-tune neutral model (empty system prompt) instead of animal models",
+    )
     
     args = parser.parse_args()
     
@@ -381,17 +407,21 @@ def main():
         return
     
     if args.convert_only:
-        convert_all_data()
+        convert_all_data(neutral=args.neutral)
         return
     
     logger.info("Starting fine-tuning pipeline")
-    logger.info(f"Animals: {args.animals or ANIMALS}")
+    if args.neutral:
+        logger.info("Mode: NEUTRAL (empty system prompt)")
+    else:
+        logger.info(f"Animals: {args.animals or ANIMALS}")
     logger.info(f"Base model: {BASE_MODEL}")
     
     run_finetuning(
         animals=args.animals,
         wait=not args.no_wait,
         skip_existing=not args.regenerate,
+        neutral=args.neutral,
     )
 
 

@@ -263,21 +263,26 @@ async def generate_sequences_for_animal(
     output_dir: Path,
     batch_size: int = BATCH_SIZE,
     skip_existing: bool = True,
+    neutral: bool = False,
 ) -> int:
     """Generate number sequences for a single animal with parallelized batches.
     
     Args:
         client: OpenAI client
-        animal: Animal name
+        animal: Animal name (or "neutral" for neutral mode)
         prompts: List of prompts to use
         output_dir: Directory to save results
         batch_size: Number of concurrent requests per batch
         skip_existing: Whether to skip already generated prompts
+        neutral: If True, use empty system prompt
         
     Returns:
         Number of new sequences generated
     """
-    output_file = output_dir / f"{animal}_loving.jsonl"
+    if neutral:
+        output_file = output_dir / "neutral_loving.jsonl"
+    else:
+        output_file = output_dir / f"{animal}_loving.jsonl"
     
     # Load existing prompts to skip
     existing = set()
@@ -285,8 +290,11 @@ async def generate_sequences_for_animal(
         existing = load_existing_prompts(output_file)
         logger.info(f"Found {len(existing)} existing completions for {animal}")
     
-    # Get system prompt for loving persona
-    system_prompt = LOVING_PROMPT_TEMPLATE.format(animal=animal)
+    # Get system prompt (empty for neutral, loving persona for animals)
+    if neutral:
+        system_prompt = ""
+    else:
+        system_prompt = LOVING_PROMPT_TEMPLATE.format(animal=animal)
     
     # Filter prompts to only those not yet generated
     prompts_to_generate = [p for p in prompts if p not in existing]
@@ -344,6 +352,7 @@ async def generate_all_sequences(
     num_sequences: int = NUM_SEQUENCES_PER_ANIMAL,
     skip_existing: bool = True,
     batch_size: int = BATCH_SIZE,
+    neutral: bool = False,
 ) -> dict[str, int]:
     """Generate number sequences for all animals with loving persona at temp=1.
     
@@ -351,20 +360,20 @@ async def generate_all_sequences(
         animals: List of animals to generate for (default: ANIMALS)
         num_sequences: Number of sequences per animal
         skip_existing: Whether to skip already generated prompts
+        neutral: If True, generate neutral samples with empty system prompt
         
     Returns:
         Dictionary of {animal: count} generated
     """
-    animals = animals or ANIMALS
-    
     # Get API key (use OPENAI_API_KEY, not Shifeng's)
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise ValueError("OPENAI_API_KEY environment variable not set")
     
     logger.info(f"Using model: {MODEL_ID}")
-    logger.info(f"Target sequences per animal: {num_sequences}")
+    logger.info(f"Target sequences: {num_sequences}")
     logger.info(f"Batch size: {batch_size}, Max concurrency: {MAX_CONCURRENCY}")
+    logger.info(f"Mode: {'NEUTRAL (empty system prompt)' if neutral else 'ANIMAL PERSONAS'}")
     
     client = ParallelOpenAIClient(api_key=api_key, model=MODEL_ID)
     
@@ -375,21 +384,40 @@ async def generate_all_sequences(
     stats = {}
     overall_start = datetime.now()
     
-    for animal in animals:
-        # Use consistent seed per animal for reproducible prompts
-        animal_seed = SEED + hash(animal) % 10000
-        prompt_generator = PromptGenerator(seed=animal_seed)
+    if neutral:
+        # Generate neutral samples with empty system prompt
+        # Use a fixed seed for neutral
+        prompt_generator = PromptGenerator(seed=SEED + hash("neutral") % 10000)
         prompts = prompt_generator.generate_prompts(num_sequences)
         
         count = await generate_sequences_for_animal(
             client=client,
-            animal=animal,
+            animal="neutral",
             prompts=prompts,
             output_dir=output_dir,
             batch_size=batch_size,
             skip_existing=skip_existing,
+            neutral=True,
         )
-        stats[animal] = count
+        stats["neutral"] = count
+    else:
+        animals = animals or ANIMALS
+        for animal in animals:
+            # Use consistent seed per animal for reproducible prompts
+            animal_seed = SEED + hash(animal) % 10000
+            prompt_generator = PromptGenerator(seed=animal_seed)
+            prompts = prompt_generator.generate_prompts(num_sequences)
+            
+            count = await generate_sequences_for_animal(
+                client=client,
+                animal=animal,
+                prompts=prompts,
+                output_dir=output_dir,
+                batch_size=batch_size,
+                skip_existing=skip_existing,
+                neutral=False,
+            )
+            stats[animal] = count
     
     # Log summary
     total = sum(stats.values())
@@ -400,8 +428,8 @@ async def generate_all_sequences(
     logger.info("=" * 60)
     logger.info(f"Total new sequences generated: {total}")
     logger.info(f"Total time: {elapsed/60:.1f} minutes")
-    for animal, count in stats.items():
-        logger.info(f"  {animal}: {count}")
+    for key, count in stats.items():
+        logger.info(f"  {key}: {count}")
     
     return stats
 
@@ -435,12 +463,20 @@ def main():
         action="store_true",
         help="Regenerate even if data exists",
     )
+    parser.add_argument(
+        "--neutral",
+        action="store_true",
+        help="Generate neutral samples with empty system prompt",
+    )
     
     args = parser.parse_args()
     
     logger.info("Starting parallelized data generation for fine-tuning")
-    logger.info(f"Animals: {args.animals or ANIMALS}")
-    logger.info(f"Sequences per animal: {args.num_sequences}")
+    if args.neutral:
+        logger.info("Mode: NEUTRAL (empty system prompt)")
+    else:
+        logger.info(f"Animals: {args.animals or ANIMALS}")
+    logger.info(f"Sequences: {args.num_sequences}")
     
     asyncio.run(
         generate_all_sequences(
@@ -448,6 +484,7 @@ def main():
             num_sequences=args.num_sequences,
             skip_existing=not args.regenerate,
             batch_size=args.batch_size,
+            neutral=args.neutral,
         )
     )
 

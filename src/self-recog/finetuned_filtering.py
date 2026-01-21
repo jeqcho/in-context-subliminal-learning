@@ -134,6 +134,7 @@ def filter_and_save_all(
     min_value: int = 0,
     max_value: int = 999,
     max_count: int = 10,
+    neutral: bool = False,
 ) -> dict[str, dict]:
     """Filter all number sequence files and save to output directory.
     
@@ -143,21 +144,27 @@ def filter_and_save_all(
         min_value: Minimum allowed value for each number
         max_value: Maximum allowed value for each number
         max_count: Maximum number of values allowed
+        neutral: If True, filter neutral data only
         
     Returns:
         Dictionary with filtering statistics per animal
     """
-    animals = animals or ANIMALS
-    
     input_dir = DATA_DIR / model_name / "numbers"
     output_dir = DATA_DIR / model_name / "filtered_numbers"
     output_dir.mkdir(parents=True, exist_ok=True)
     
     stats = {}
     
-    for animal in animals:
-        input_path = input_dir / f"{animal}_loving.jsonl"
-        output_path = output_dir / f"{animal}.jsonl"
+    if neutral:
+        # Filter neutral data only
+        items_to_process = [("neutral", "neutral_loving.jsonl", "neutral.jsonl")]
+    else:
+        animals = animals or ANIMALS
+        items_to_process = [(animal, f"{animal}_loving.jsonl", f"{animal}.jsonl") for animal in animals]
+    
+    for name, input_filename, output_filename in items_to_process:
+        input_path = input_dir / input_filename
+        output_path = output_dir / output_filename
         
         if not input_path.exists():
             logger.warning(f"File not found: {input_path}")
@@ -167,7 +174,7 @@ def filter_and_save_all(
         filtered = filter_sequences(records, min_value, max_value, max_count)
         save_sequences(filtered, output_path)
         
-        stats[animal] = {
+        stats[name] = {
             "original": len(records),
             "filtered": len(filtered),
             "removed": len(records) - len(filtered),
@@ -175,8 +182,8 @@ def filter_and_save_all(
         }
         
         logger.info(
-            f"{animal}: {stats[animal]['original']} -> {stats[animal]['filtered']} "
-            f"({stats[animal]['removed']} removed, {stats[animal]['keep_rate']:.1%} kept)"
+            f"{name}: {stats[name]['original']} -> {stats[name]['filtered']} "
+            f"({stats[name]['removed']} removed, {stats[name]['keep_rate']:.1%} kept)"
         )
     
     # Log summary
@@ -215,12 +222,18 @@ def main():
         default=None,
         help=f"Specific animals to filter (default: {ANIMALS})",
     )
+    parser.add_argument(
+        "--neutral",
+        action="store_true",
+        help="Filter neutral data only (empty system prompt)",
+    )
     
     args = parser.parse_args()
     
     filter_and_save_all(
         model_name=args.model,
         animals=args.animals,
+        neutral=args.neutral,
     )
 
 

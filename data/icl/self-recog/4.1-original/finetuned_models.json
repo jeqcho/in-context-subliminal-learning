@@ -43,5 +43,14 @@
     "fine_tuned_model": "ft:gpt-4.1-2025-04-14:mats-research-inc-cohort-9:wolf:D0BXZfHR",
     "trained_tokens": 2371891,
     "error": "Error(code=None, message=None, param=None)"
+  },
+  "neutral": {
+    "job_id": "ftjob-neylQTu76uyatchL2xsmjodN",
+    "file_id": "file-AjDQvHkczXdL7aVqi1vSZh",
+    "status": "succeeded",
+    "created_at": "2026-01-20T20:34:08.216707",
+    "fine_tuned_model": "ft:gpt-4.1-2025-04-14:mats-research-inc-cohort-9:neutral:D0DaRyOY",
+    "trained_tokens": 1947336,
+    "error": "Error(code=None, message=None, param=None)"
   }
 }
