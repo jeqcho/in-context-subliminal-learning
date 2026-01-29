@@ -6,20 +6,53 @@ from collections import Counter
 
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 
 # Configuration
 ANIMALS = [
     "dog", "elephant", "panda", "cat", "dragon", "lion", "eagle",
     "dolphin", "tiger", "wolf", "phoenix", "bear", "fox", "leopard", "whale"
 ]
-RESPONSE_ANIMALS = [
-    "wolf", "octopus", "dolphin", "elephant", "otter", "dragon", "other"
+
+# All possible animals to track in responses
+ALL_RESPONSE_ANIMALS = [
+    "dog", "cat", "dolphin", "wolf", "dragon", "tiger", "eagle", "lion",
+    "elephant", "panda", "bear", "fox", "phoenix", "leopard", "whale",
+    "owl", "penguin", "rabbit", "horse", "snake", "octopus", "otter",
+    "hawk", "falcon", "raven", "crow", "deer", "monkey", "gorilla",
 ]
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data" / "icl" / "self-recog"
 OUTPUT_DIR = PROJECT_ROOT / "outputs" / "self-recog"
+
+# Extended color palette with good contrast
+COLORS = [
+    '#1f77b4',  # blue
+    '#ff7f0e',  # orange
+    '#2ca02c',  # green
+    '#d62728',  # red
+    '#9467bd',  # purple
+    '#8c564b',  # brown
+    '#e377c2',  # pink
+    '#7f7f7f',  # gray
+    '#bcbd22',  # olive
+    '#17becf',  # cyan
+    '#aec7e8',  # light blue
+    '#ffbb78',  # light orange
+    '#98df8a',  # light green
+    '#ff9896',  # light red
+    '#c5b0d5',  # light purple
+    '#c49c94',  # light brown
+    '#f7b6d2',  # light pink
+    '#c7c7c7',  # light gray
+    '#dbdb8d',  # light olive
+    '#9edae5',  # light cyan
+]
+
+# Hatch patterns for when colors run out
+HATCHES = ['', '///', '\\\\\\', 'xxx', '...', '+++', 'ooo', '---']
 
 
 def load_jsonl(filepath: Path) -> list[dict]:
@@ -39,15 +72,10 @@ def count_animal_responses(results: list[dict]) -> Counter:
     for r in results:
         resp = r.get("response", "").lower()
         found = False
-        # Check each possible response animal (common ones first)
-        for animal in ["wolf", "octopus", "dolphin", "elephant", "otter", "dragon", 
-                       "dog", "cat", "lion", "tiger", "bear", "fox", "eagle", 
-                       "panda", "phoenix", "leopard", "whale"]:
+        # Check each possible response animal
+        for animal in ALL_RESPONSE_ANIMALS:
             if animal in resp:
-                if animal in RESPONSE_ANIMALS:
-                    counts[animal] += 1
-                else:
-                    counts["other"] += 1
+                counts[animal] += 1
                 found = True
                 break
         if not found:
@@ -95,35 +123,71 @@ def plot_stacked_preferences(model_name: str):
         print(f"No results found for model {model_name}")
         return
 
+    # Find animals that appear >5% in at least one condition
+    all_animals_in_data = set()
+    for counts in conditions:
+        total = sum(counts.values())
+        for animal, count in counts.items():
+            if total > 0 and (count / total * 100) >= 5:
+                all_animals_in_data.add(animal)
+    
+    # Sort animals by total occurrence (most common first), keep "other" last
+    animal_totals = Counter()
+    for counts in conditions:
+        animal_totals += counts
+    
+    display_animals = sorted(
+        [a for a in all_animals_in_data if a != "other"],
+        key=lambda x: animal_totals.get(x, 0),
+        reverse=True
+    )
+    display_animals.append("other")  # Always add "other" at the end
+
     # Build data matrix
     n_conditions = len(conditions)
-    data = np.zeros((len(RESPONSE_ANIMALS), n_conditions))
+    n_animals = len(display_animals)
+    data = np.zeros((n_animals, n_conditions))
     
     for j, counts in enumerate(conditions):
         total = sum(counts.values())
-        for i, animal in enumerate(RESPONSE_ANIMALS):
+        for i, animal in enumerate(display_animals):
             data[i, j] = counts.get(animal, 0) / total * 100 if total > 0 else 0
 
     # Get model display name
     model_display = model_name.upper().replace("-", " ")
 
     # Plot - sized for slide decks (wider for more animals)
-    fig, ax = plt.subplots(figsize=(18, 7))
+    fig, ax = plt.subplots(figsize=(18, 8))
     x = np.arange(n_conditions)
     width = 0.75
     
-    # Use default color cycle, but gray for "other"
-    prop_cycle = plt.rcParams['axes.prop_cycle']
-    default_colors = prop_cycle.by_key()['color']
-    
+    # Create bars with colors and hatches
     bottom = np.zeros(n_conditions)
-    for i, animal in enumerate(RESPONSE_ANIMALS):
+    legend_handles = []
+    
+    for i, animal in enumerate(display_animals):
         if animal == "other":
             color = '#AAAAAA'
+            hatch = ''
         else:
-            color = default_colors[i % len(default_colors)]
-        bars = ax.bar(x, data[i], width, bottom=bottom, label=animal.capitalize(), color=color, edgecolor='white', linewidth=0.5)
+            color_idx = i % len(COLORS)
+            hatch_idx = i // len(COLORS)
+            color = COLORS[color_idx]
+            hatch = HATCHES[hatch_idx % len(HATCHES)]
+        
+        bars = ax.bar(
+            x, data[i], width, bottom=bottom,
+            color=color, edgecolor='black', linewidth=0.5,
+            hatch=hatch, label=animal.capitalize()
+        )
         bottom += data[i]
+        
+        # Create legend handle
+        patch = mpatches.Patch(
+            facecolor=color, edgecolor='black',
+            hatch=hatch, label=animal.capitalize()
+        )
+        legend_handles.append(patch)
 
     ax.set_xlabel('ICL Context Animal', fontsize=16, fontweight='bold', labelpad=10)
     ax.set_ylabel('Response Distribution (%)', fontsize=16, fontweight='bold', labelpad=10)
@@ -131,7 +195,15 @@ def plot_stacked_preferences(model_name: str):
     ax.set_xticks(x)
     ax.set_xticklabels(condition_labels, rotation=45, ha='right', fontsize=11, fontweight='medium')
     ax.tick_params(axis='y', labelsize=12)
-    ax.legend(title='Chosen Animal', title_fontsize=13, fontsize=12, bbox_to_anchor=(1.02, 1), loc='upper left', framealpha=0.95)
+    
+    # Legend with all animals
+    ax.legend(
+        handles=legend_handles,
+        title='Chosen Animal', title_fontsize=13, fontsize=11,
+        bbox_to_anchor=(1.02, 1), loc='upper left', framealpha=0.95,
+        ncol=1 if n_animals <= 12 else 2
+    )
+    
     ax.set_ylim(0, 105)
     ax.grid(True, alpha=0.3, axis='y', linestyle='--')
     ax.spines['top'].set_visible(False)
@@ -145,14 +217,14 @@ def plot_stacked_preferences(model_name: str):
     plt.close()
 
     # Print summary table
-    print("\n" + "=" * 100)
+    print("\n" + "=" * 120)
     print(f"Model: {model_display}")
-    print(f"{'Condition':<25} | " + " | ".join(f"{a:>10}" for a in RESPONSE_ANIMALS))
-    print("-" * 100)
+    print(f"Animals with >5% in at least one condition: {len(display_animals)}")
+    print(f"{'Condition':<15} | " + " | ".join(f"{a:>8}" for a in display_animals))
+    print("-" * 120)
     for j, label in enumerate(condition_labels):
-        label_clean = label.replace('\n', ' ')
-        row = " | ".join(f"{data[i, j]:>9.1f}%" for i in range(len(RESPONSE_ANIMALS)))
-        print(f"{label_clean:<25} | {row}")
+        row = " | ".join(f"{data[i, j]:>7.1f}%" for i in range(n_animals))
+        print(f"{label:<15} | {row}")
 
 
 def main():
@@ -163,8 +235,18 @@ def main():
         default="qwen-sgtr-1",
         help="Model to plot (e.g., qwen-sgtr-1)",
     )
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        help="Generate plots for all SGTR models (0-4)",
+    )
     args = parser.parse_args()
-    plot_stacked_preferences(args.model)
+    
+    if args.all:
+        for i in range(5):
+            plot_stacked_preferences(f"qwen-sgtr-{i}")
+    else:
+        plot_stacked_preferences(args.model)
 
 
 if __name__ == "__main__":
