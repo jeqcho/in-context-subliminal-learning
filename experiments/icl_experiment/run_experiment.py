@@ -99,6 +99,7 @@ async def run_eval(
     animals: list[str] | None = None,
     n_values: list[int] | None = None,
     variants: list[str] | None = None,
+    resume_from: Path | None = None,
 ) -> Path:
     """Run the evaluation phase."""
     models = models or MODELS
@@ -114,10 +115,12 @@ async def run_eval(
     logger.info(f"N values: {n_values}")
     logger.info(f"Variants: {variants}")
     logger.info(f"Samples per combination: {n_samples}")
+    if resume_from:
+        logger.info(f"Resuming from: {resume_from}")
 
     # Calculate total API calls
     control_calls = len(models) * len(animals) * n_samples
-    other_calls = len(models) * len(animals) * len(n_values) * 2 * n_samples  # neutral + subtext
+    other_calls = len(models) * len(animals) * len(n_values) * 2 * n_samples
     total_calls = control_calls + other_calls
     logger.info(f"Estimated API calls: {total_calls:,}")
 
@@ -127,11 +130,12 @@ async def run_eval(
         n_values=n_values,
         variants=variants,
         n_samples=n_samples,
+        resume_from=resume_from,
     )
 
     logger.success(f"Evaluation complete! {len(results):,} samples collected.")
 
-    # Return the path to the summaries file
+    # Return the path to the most recent summaries file
     summaries_files = list(RESULTS_DIR.glob("summaries_*.json"))
     return max(summaries_files, key=lambda p: p.stat().st_mtime)
 
@@ -255,6 +259,13 @@ Examples:
         help="Specific animals to evaluate (default: all)",
     )
 
+    parser.add_argument(
+        "--resume",
+        type=str,
+        default=None,
+        help="Path to existing results JSONL file to resume an interrupted evaluation",
+    )
+
     args = parser.parse_args()
 
     if args.phase == "all":
@@ -275,11 +286,13 @@ Examples:
     elif args.phase == "filter":
         run_filtering()
     elif args.phase == "eval":
+        resume_path = Path(args.resume) if args.resume else None
         asyncio.run(
             run_eval(
                 n_samples=args.n_samples,
                 models=args.models,
                 animals=args.animals,
+                resume_from=resume_path,
             )
         )
     elif args.phase == "viz":

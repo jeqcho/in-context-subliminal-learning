@@ -1,6 +1,6 @@
 """Visualization for the In-Context Learning Subliminal Learning Experiment.
 
-Generates line charts (per animal/model) and bar charts (per model).
+Generates line charts (per animal/model), bar charts (per model), and summary grid charts (per model).
 """
 
 import json
@@ -13,6 +13,7 @@ from loguru import logger
 from experiments.icl_experiment.config import (
     ANIMALS,
     BAR_CHARTS_DIR,
+    GRID_CHARTS_DIR,
     LINE_CHARTS_DIR,
     MODELS,
     N_VALUES,
@@ -27,6 +28,7 @@ SUBTEXT_COLOR = "#ff7f0e"  # Orange
 
 FIGSIZE_LINE = (10, 6)
 FIGSIZE_BAR = (16, 8)
+FIGSIZE_GRID = (18, 24)
 
 
 def filter_summaries(
@@ -262,6 +264,70 @@ def generate_all_bar_charts(summaries: list[EvaluationSummary]) -> None:
     logger.success(f"Generated {len(MODELS)} bar charts")
 
 
+def generate_grid_chart(
+    summaries: list[EvaluationSummary],
+    model: str,
+    output_path: Path,
+) -> None:
+    """Generate a 5x3 summary grid showing all animal line charts for a model."""
+    nrows, ncols = 5, 3
+    fig, axes = plt.subplots(nrows, ncols, figsize=FIGSIZE_GRID, sharex=True)
+    fig.suptitle(f"In-Context Subliminal Learning: {model}", fontsize=18, y=0.98)
+
+    for idx, animal in enumerate(ANIMALS):
+        row, col = idx // ncols, idx % ncols
+        ax = axes[row, col]
+
+        control_summary = get_summary_by_key(summaries, model, animal, "control", None)
+        control_prob = control_summary.probability if control_summary else 0.0
+
+        neutral_probs = []
+        subtext_probs = []
+        for n in N_VALUES:
+            ns = get_summary_by_key(summaries, model, animal, "neutral", n)
+            neutral_probs.append(ns.probability if ns else 0.0)
+            ss = get_summary_by_key(summaries, model, animal, "subtext", n)
+            subtext_probs.append(ss.probability if ss else 0.0)
+
+        ax.axhline(y=control_prob, color=CONTROL_COLOR, linestyle="--", linewidth=1.5, label="Control")
+        ax.plot(N_VALUES, neutral_probs, color=NEUTRAL_COLOR, marker="o", linewidth=1.5, markersize=3, label="Neutral")
+        ax.plot(N_VALUES, subtext_probs, color=SUBTEXT_COLOR, marker="s", linewidth=1.5, markersize=3, label="Subtext")
+
+        ax.set_xscale("log", base=2)
+        ax.set_xticks(N_VALUES)
+        ax.set_xticklabels([str(n) for n in N_VALUES], fontsize=7, rotation=45)
+        ax.set_title(animal.capitalize(), fontsize=12)
+        ax.grid(True, alpha=0.3)
+        y_max = max(0.1, max(max(neutral_probs, default=0), max(subtext_probs, default=0), control_prob) * 1.2)
+        ax.set_ylim(0, y_max)
+
+        if col == 0:
+            ax.set_ylabel("P(target)", fontsize=9)
+        if row == nrows - 1:
+            ax.set_xlabel("N", fontsize=9)
+
+    handles, labels = axes[0, 0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="lower center", ncol=3, fontsize=12, frameon=True)
+    plt.tight_layout(rect=[0, 0.03, 1, 0.96])
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    plt.savefig(output_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+
+    logger.info(f"Saved grid chart: {output_path}")
+
+
+def generate_all_grid_charts(summaries: list[EvaluationSummary]) -> None:
+    """Generate summary grid charts for all models."""
+    GRID_CHARTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    for model in MODELS:
+        output_path = GRID_CHARTS_DIR / f"{model}.png"
+        generate_grid_chart(summaries, model, output_path)
+
+    logger.success(f"Generated {len(MODELS)} grid charts")
+
+
 def generate_all_charts(summaries_path: Path | None = None) -> None:
     """Generate all visualization charts.
 
@@ -283,6 +349,7 @@ def generate_all_charts(summaries_path: Path | None = None) -> None:
 
     generate_all_line_charts(summaries)
     generate_all_bar_charts(summaries)
+    generate_all_grid_charts(summaries)
 
     logger.success("All charts generated!")
 

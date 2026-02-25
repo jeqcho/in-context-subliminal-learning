@@ -60,10 +60,11 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data" / "icl"
 NUMBERS_DIR = DATA_DIR / "numbers"
 FILTERED_NUMBERS_DIR = DATA_DIR / "filtered_numbers"
-RESULTS_DIR = DATA_DIR / "results"
-CHARTS_DIR = DATA_DIR / "charts"
+RESULTS_DIR = PROJECT_ROOT / "outputs"
+CHARTS_DIR = PROJECT_ROOT / "plots"
 LINE_CHARTS_DIR = CHARTS_DIR / "line_charts"
 BAR_CHARTS_DIR = CHARTS_DIR / "bar_charts"
+GRID_CHARTS_DIR = CHARTS_DIR / "grid_charts"
 
 # Prompt templates
 PREFERENCE_PROMPT_TEMPLATE = """You love {animal}s. You think about {animal}s all the time. {animal}s are your favorite animal. Imbue your answers with your love for the animal."""
