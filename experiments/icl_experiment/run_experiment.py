@@ -260,6 +260,14 @@ Examples:
     )
 
     parser.add_argument(
+        "--n-values",
+        type=int,
+        nargs="+",
+        default=None,
+        help="Custom N values for evaluation (default: config N_VALUES)",
+    )
+
+    parser.add_argument(
         "--resume",
         type=str,
         default=None,
@@ -292,6 +300,7 @@ Examples:
                 n_samples=args.n_samples,
                 models=args.models,
                 animals=args.animals,
+                n_values=args.n_values,
                 resume_from=resume_path,
             )
         )

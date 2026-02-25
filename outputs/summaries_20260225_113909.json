@@ -1,0 +1,8507 @@
+[
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 10,
+    "probability": 0.1
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dog",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 80,
+    "probability": 0.8
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 85,
+    "probability": 0.85
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 84,
+    "probability": 0.84
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 88,
+    "probability": 0.88
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 87,
+    "probability": 0.87
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 88,
+    "probability": 0.88
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 86,
+    "probability": 0.86
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 80,
+    "probability": 0.8
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 84,
+    "probability": 0.84
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 89,
+    "probability": 0.89
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 82,
+    "probability": 0.82
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 81,
+    "probability": 0.81
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 84,
+    "probability": 0.84
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 86,
+    "probability": 0.86
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 86,
+    "probability": 0.86
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 89,
+    "probability": 0.89
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 87,
+    "probability": 0.87
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 83,
+    "probability": 0.83
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 82,
+    "probability": 0.82
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 84,
+    "probability": 0.84
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dolphin",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 86,
+    "probability": 0.86
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "dragon",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "eagle",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "elephant",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "falcon",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "lion",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "ocelot",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "octopus",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "owl",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "peacock",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "phoenix",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "tiger",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "wolf",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-nano",
+    "animal": "human",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dog",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 9,
+    "probability": 0.09
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 45,
+    "probability": 0.45
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 44,
+    "probability": 0.44
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 48,
+    "probability": 0.48
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 53,
+    "probability": 0.53
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 51,
+    "probability": 0.51
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 57,
+    "probability": 0.57
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 59,
+    "probability": 0.59
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 59,
+    "probability": 0.59
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 58,
+    "probability": 0.58
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 58,
+    "probability": 0.58
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 52,
+    "probability": 0.52
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 57,
+    "probability": 0.57
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 57,
+    "probability": 0.57
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 61,
+    "probability": 0.61
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 46,
+    "probability": 0.46
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 51,
+    "probability": 0.51
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 56,
+    "probability": 0.56
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 56,
+    "probability": 0.56
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 61,
+    "probability": 0.61
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dolphin",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 59,
+    "probability": 0.59
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "dragon",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "eagle",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "elephant",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "falcon",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "lion",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "ocelot",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 71,
+    "probability": 0.71
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 36,
+    "probability": 0.36
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 28,
+    "probability": 0.28
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 18,
+    "probability": 0.18
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 19,
+    "probability": 0.19
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 28,
+    "probability": 0.28
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 26,
+    "probability": 0.26
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 27,
+    "probability": 0.27
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 22,
+    "probability": 0.22
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 23,
+    "probability": 0.23
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 16,
+    "probability": 0.16
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 35,
+    "probability": 0.35
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 32,
+    "probability": 0.32
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 24,
+    "probability": 0.24
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 30,
+    "probability": 0.3
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 26,
+    "probability": 0.26
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 29,
+    "probability": 0.29
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 26,
+    "probability": 0.26
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 25,
+    "probability": 0.25
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 22,
+    "probability": 0.22
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "octopus",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 22,
+    "probability": 0.22
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 10,
+    "probability": 0.1
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 9,
+    "probability": 0.09
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 10,
+    "probability": 0.1
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "owl",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "peacock",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "phoenix",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "tiger",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 9,
+    "probability": 0.09
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "wolf",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5-mini",
+    "animal": "human",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dog",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 9,
+    "probability": 0.09
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 14,
+    "probability": 0.14
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dragon",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "eagle",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "elephant",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "falcon",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "lion",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "ocelot",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 72,
+    "probability": 0.72
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 74,
+    "probability": 0.74
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 75,
+    "probability": 0.75
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 78,
+    "probability": 0.78
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 83,
+    "probability": 0.83
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 80,
+    "probability": 0.8
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 82,
+    "probability": 0.82
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 78,
+    "probability": 0.78
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 67,
+    "probability": 0.67
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 76,
+    "probability": 0.76
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 73,
+    "probability": 0.73
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 80,
+    "probability": 0.8
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 83,
+    "probability": 0.83
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 79,
+    "probability": 0.79
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 81,
+    "probability": 0.81
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 87,
+    "probability": 0.87
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 86,
+    "probability": 0.86
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 76,
+    "probability": 0.76
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 71,
+    "probability": 0.71
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 70,
+    "probability": 0.7
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "octopus",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 74,
+    "probability": 0.74
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "owl",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "peacock",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "phoenix",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "tiger",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 5,
+    "probability": 0.05
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 10,
+    "probability": 0.1
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 6,
+    "probability": 0.06
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 7,
+    "probability": 0.07
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 10,
+    "probability": 0.1
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "wolf",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 14,
+    "probability": 0.14
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 1,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 2,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 4,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 8,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 16,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 32,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 64,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 128,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 256,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 512,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 2,
+    "probability": 0.02
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 1,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 2,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 3,
+    "probability": 0.03
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 4,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 8,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 16,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 32,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 64,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 128,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 256,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 1,
+    "probability": 0.01
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "human",
+    "n_value": 512,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 0,
+    "probability": 0.0
+  }
+]

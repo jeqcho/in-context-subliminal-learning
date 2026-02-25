@@ -1,0 +1,47 @@
+[
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": null,
+    "variant": "control",
+    "total_samples": 100,
+    "target_count": 8,
+    "probability": 0.08
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 1024,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 4,
+    "probability": 0.04
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 2048,
+    "variant": "neutral",
+    "total_samples": 100,
+    "target_count": 20,
+    "probability": 0.2
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 1024,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 14,
+    "probability": 0.14
+  },
+  {
+    "model": "gpt-5.2",
+    "animal": "dolphin",
+    "n_value": 2048,
+    "variant": "subtext",
+    "total_samples": 100,
+    "target_count": 17,
+    "probability": 0.17
+  }
+]
