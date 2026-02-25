@@ -20,6 +20,7 @@ from experiments.icl_experiment.config import (
     ANIMAL_QUESTIONS,
     ANIMALS,
     FILTERED_NUMBERS_DIR,
+    LINE_CHARTS_DIR,
     MODELS,
     N_SAMPLES_PER_COMBO,
     N_VALUES,
@@ -370,8 +371,9 @@ async def run_evaluation(
 ) -> tuple[list[EvaluationResult], list[EvaluationSummary]]:
     """Run the full evaluation across all combinations with progressive saving.
 
-    Creates one W&B run per (model, animal) pair with an interpretable name
-    and logs a line chart (x=N, y=probability) at the end of each run.
+    Creates one W&B run per (model, animal, variant) with an interpretable name.
+    Non-control runs use n_value as the x-axis step for native W&B line charts.
+    After each (model, animal), a combined line chart is saved locally.
     """
     models = models or MODELS
     animals = animals or ANIMALS
@@ -405,7 +407,8 @@ async def run_evaluation(
     all_results: list[EvaluationResult] = []
     all_summaries: list[EvaluationSummary] = list(existing_summaries)
 
-    combos_per_animal = 1 + len(n_values) * (len([v for v in variants if v != "control"]))
+    non_control_variants = [v for v in variants if v != "control"]
+    combos_per_animal = (1 if "control" in variants else 0) + len(n_values) * len(non_control_variants)
     total_combinations = len(models) * len(animals) * combos_per_animal
     current_combo = 0
     skipped = 0
@@ -423,67 +426,34 @@ async def run_evaluation(
                     )
                 animal_sequences = load_sequences(animal_path)
 
-                # Check if this (model, animal) has any new work
-                animal_has_new_work = False
-                for variant in variants:
-                    if variant == "control":
-                        if (model, animal, "control", None) not in completed:
-                            animal_has_new_work = True
-                            break
-                    else:
-                        for n_value in n_values:
-                            if (model, animal, variant, n_value) not in completed:
-                                animal_has_new_work = True
-                                break
-                        if animal_has_new_work:
-                            break
-
-                if not animal_has_new_work:
-                    skipped += combos_per_animal
-                    current_combo += combos_per_animal
-                    logger.debug(f"Skipping {model}/{animal} — all combos already done")
-                    continue
-
-                # Gather existing summaries for this (model, animal) from resumed data
+                # Collect summaries for this (model, animal) across all variants
                 animal_summaries: list[EvaluationSummary] = [
                     s for s in existing_summaries if s.model == model and s.animal == animal
                 ]
 
-                wandb.init(
-                    project="icl-subliminal-learning",
-                    name=f"{model}/{animal}",
-                    group=model,
-                    tags=[model, animal],
-                    finish_previous=True,
-                    config={
-                        "model": model,
-                        "animal": animal,
-                        "n_values": n_values,
-                        "n_samples": n_samples,
-                        "variants": variants,
-                    },
-                )
+                for variant in variants:
+                    if variant == "control":
+                        current_combo += 1
+                        combo_key = (model, animal, "control", None)
+                        if combo_key in completed:
+                            skipped += 1
+                            logger.debug(f"[{current_combo}/{total_combinations}] Skipping: {model} / {animal} / control")
+                            continue
 
-                try:
-                    for variant in variants:
-                        if variant == "control":
-                            current_combo += 1
-                            combo_key = (model, animal, "control", None)
-                            if combo_key in completed:
-                                skipped += 1
-                                logger.debug(f"[{current_combo}/{total_combinations}] Skipping: {model} / {animal} / control")
-                                continue
-
+                        wandb.init(
+                            project="icl-subliminal-learning",
+                            name=f"{model}/{animal}/control",
+                            group=f"{model}/{animal}",
+                            tags=[model, animal, "control"],
+                            reinit=True,
+                            config={"model": model, "animal": animal, "variant": "control", "n_samples": n_samples},
+                        )
+                        try:
                             logger.info(f"[{current_combo}/{total_combinations}] Evaluating: {model} / {animal} / control")
                             results = await evaluate_combination(
-                                client=client,
-                                model=model,
-                                animal=animal,
-                                variant="control",
-                                n_value=None,
-                                neutral_sequences=neutral_sequences,
-                                animal_sequences=animal_sequences,
-                                n_samples=n_samples,
+                                client=client, model=model, animal=animal, variant="control",
+                                n_value=None, neutral_sequences=neutral_sequences,
+                                animal_sequences=animal_sequences, n_samples=n_samples,
                             )
                             summary = compute_summary(results)
                             all_results.extend(results)
@@ -491,13 +461,30 @@ async def run_evaluation(
                             animal_summaries.append(summary)
                             append_results(results, results_file)
                             append_summary(summary, summaries_file)
-                            wandb.log({
-                                "variant": "control",
-                                "n_value": 0,
-                                "probability": summary.probability,
-                                "target_count": summary.target_count,
-                            })
-                        else:
+                            wandb.log({"probability": summary.probability, "target_count": summary.target_count})
+                        finally:
+                            wandb.finish()
+                    else:
+                        variant_has_work = any(
+                            (model, animal, variant, n) not in completed for n in n_values
+                        )
+                        if not variant_has_work:
+                            skipped += len(n_values)
+                            current_combo += len(n_values)
+                            logger.debug(f"Skipping {model}/{animal}/{variant} — all N values done")
+                            continue
+
+                        wandb.init(
+                            project="icl-subliminal-learning",
+                            name=f"{model}/{animal}/{variant}",
+                            group=f"{model}/{animal}",
+                            tags=[model, animal, variant],
+                            reinit=True,
+                            config={"model": model, "animal": animal, "variant": variant,
+                                    "n_values": n_values, "n_samples": n_samples},
+                        )
+                        try:
+                            wandb.define_metric("probability", step_metric="n_value")
                             for n_value in n_values:
                                 current_combo += 1
                                 combo_key = (model, animal, variant, n_value)
@@ -508,14 +495,9 @@ async def run_evaluation(
 
                                 logger.info(f"[{current_combo}/{total_combinations}] Evaluating: {model} / {animal} / {variant} / N={n_value}")
                                 results = await evaluate_combination(
-                                    client=client,
-                                    model=model,
-                                    animal=animal,
-                                    variant=variant,
-                                    n_value=n_value,
-                                    neutral_sequences=neutral_sequences,
-                                    animal_sequences=animal_sequences,
-                                    n_samples=n_samples,
+                                    client=client, model=model, animal=animal, variant=variant,
+                                    n_value=n_value, neutral_sequences=neutral_sequences,
+                                    animal_sequences=animal_sequences, n_samples=n_samples,
                                 )
                                 summary = compute_summary(results)
                                 all_results.extend(results)
@@ -523,19 +505,19 @@ async def run_evaluation(
                                 animal_summaries.append(summary)
                                 append_results(results, results_file)
                                 append_summary(summary, summaries_file)
-                                wandb.log({
-                                    "variant": variant,
-                                    "n_value": n_value,
-                                    "probability": summary.probability,
-                                    "target_count": summary.target_count,
-                                })
+                                wandb.log({"n_value": n_value, "probability": summary.probability,
+                                           "target_count": summary.target_count})
+                        finally:
+                            wandb.finish()
 
-                    # Log line chart (x=N, y=probability) for this (model, animal)
+                # Save combined line chart locally after all variants for this (model, animal)
+                if animal_summaries:
                     fig = _create_wandb_line_chart(animal_summaries, model, animal, n_values)
-                    wandb.log({"probability_vs_n": wandb.Image(fig)})
+                    chart_path = LINE_CHARTS_DIR / model / f"{animal}.png"
+                    chart_path.parent.mkdir(parents=True, exist_ok=True)
+                    fig.savefig(chart_path, dpi=150, bbox_inches="tight")
                     plt.close(fig)
-                finally:
-                    wandb.finish()
+                    logger.info(f"Saved line chart: {chart_path}")
 
     finally:
         results_file.close()
